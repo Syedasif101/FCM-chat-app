@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "FCM Chat Mobile",
+    "slug": "fcm-chat-mobile",
+    "scheme": "fcmchat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      [
+        "@react-native-firebase/app",
+        { "android_google_services_file": "./android/app/google-services.json" }
+      ],
+      "@react-native-firebase/messaging"
+    ],
+    "android": {
+      "package": "com.example.fcmchat",
+      "useNextNotificationsApi": true,
+      "permissions": ["POST_NOTIFICATIONS"],
+      "googleServicesFile": "./android/app/google-services.json"
+    }
+  }
+}
