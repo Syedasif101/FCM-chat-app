@@ -1,4 +1,4 @@
-// public/firebase-messaging-sw.js
+
 importScripts(
   'https://www.gstatic.com/firebasejs/9.6.11/firebase-app-compat.js'
 );
