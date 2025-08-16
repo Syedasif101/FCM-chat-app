@@ -1,4 +1,4 @@
-// pages/_app.tsx
+
 import { useEffect } from 'react';
 import type { AppProps } from 'next/app';
 import { setupMessaging } from '../firebase';
